@@ -1,6 +1,9 @@
 # DataAnalytics-Assessment
 
 Assessment_Q1.sql
+
+
+Assessment_Q2.sql
 Use Common Table Expressions to get:
 Users with funded savings
 Users with funded investment plans
@@ -8,17 +11,14 @@ Users with funded investment plans
 inplace of name we used first_name to replace name
 Join on user ID and aggregate total deposits.
 
-Assessment_Q2.sql
+
+Assessment_Q3.sql
 For plans_plan: assume plans where is_archived = 0 and is_deleted = 0
 For savings_savingsaccount: use confirmed_amount > 0 (indicating inflow)
 No inflow transactions in the past 365 days from today (NOW())
 Get last inflow date per plan from savings_savingsaccount and plans_plan
 Calculate inactivity_days using DATEDIFF(NOW(), last_transaction_date)
 Filter where the last inflow was more than 365 days ago
-
-
-Assessment_Q3.sql
-
 
 
 
